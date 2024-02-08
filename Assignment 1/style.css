@@ -1,0 +1,71 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+  
+  
+  
+   body {
+    /* Hehe poolors go brrrrr.
+    * Maybe I won't be so bad? 
+    https://poolors.com/5d00c3-c8afe0
+    https://poolors.com/010101-fdfdfd
+    https://poolors.com/fcfcfc-8357bb
+    https://poolors.com/c972e5-191504
+    https://poolors.com/161812-efe5ea
+    https://poolors.com/412419-9252ae
+    https://poolors.com/1e1847-eefbfc-be36e3
+    Persona! https://poolors.com/000000-fefefe-ea2626
+    */
+    background-color: #853676;
+    color: #bad9ba;
+    font-family: Verdana;
+    margin: 8px max(8px, 50% - 118.5rem/2);
+  }
+  
+  a {
+    color: #6b4cda;
+  }
+
+  a:visited {
+    color: #ff6680;
+  }
+  
+  .flexTop, footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  header nav a {
+    background-color: #1a1725;
+    padding: 0.5em;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+  main {
+    margin: 1rem auto;
+    max-width: 60rem; 
+    background-color: #72067d;
+    padding: 1em;
+  }
+  
+  main li {
+    margin: 0.3rem; 
+  }
+  
+  img {
+   display: block; 
+  }
+
+  .homeLink {
+    all: unset;
+    color: #bad9ba;
+    cursor: pointer;
+  }
+
+  .homeLink:visited {
+    all: unset;
+    color: #bad9ba;
+  }
