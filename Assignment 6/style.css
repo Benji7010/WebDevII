@@ -89,6 +89,7 @@ html {
 .Paralax {
   max-width: 100%;
   min-height: 500px; 
+  position: relative;
 
   /* The image used */
   background-image: url("images/crouton.png");
